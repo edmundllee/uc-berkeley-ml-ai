@@ -4,7 +4,7 @@
 **"Will a customer accept the coupon?"** 
 
 
-<table>
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
   <tr>
     <td><img src="assets/coupon-app-250.png" alt="Coupon app" width="300"></td>
     <td><img src="assets/data_loading_1.png" alt="Data Loading" width="300"></td>
