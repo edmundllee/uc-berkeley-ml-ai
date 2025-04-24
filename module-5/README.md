@@ -3,19 +3,18 @@
 ## Module 5: Practical Application 1
 **"Will a customer accept the coupon?"** 
 
-<div style="display: flex; align-items: center;">
-    <div style="position: relative; width: 300px; height: 300px; overflow: hidden; margin-left: 40px; margin-right: 40px">
-        <img src="assets\coupon-app-250.png" alt="Coupon app" style="width:300px; height:300px; object-fit: cover;">
-    </div>
-    <img src="assets\data_loading_1.png" alt="Coupon app" style="width:300px; height:300px; object-fit: cover;">
-    <div style="position: relative; width: 300px; height: 300px; overflow: hidden; margin-left: 40px; margin-right: 40px">
-        <img src="assets\missingData_1_250.png" alt="Missing Data" style="position: absolute; top: 0; left: 0; width: 300px; height: 150px; object-fit: cover;">
-        <img src="assets\missingData_2_250.png" alt="Missing Data" style="position: absolute; bottom: 0; left: 0; width: 300px; height: 150px; object-fit: cover;">
-    </div>
-    <img src="assets\distribution_1.png" alt="Coupon app" style="width:300px; height:300px; object-fit: cover;">
-</div>
 
-
+<table>
+  <tr>
+    <td><img src="assets/coupon-app-250.png" alt="Coupon app" width="300"></td>
+    <td><img src="assets/data_loading_1.png" alt="Data Loading" width="300"></td>
+    <td>
+      <img src="assets/missingData_1_250.png" alt="Missing Data 1" width="300" style="display:block; margin:0; padding:0;">
+      <img src="assets/missingData_2_250.png" alt="Missing Data 2" width="300" style="display:block; margin:0; padding:0;">
+    </td>    
+    <td><img src="assets/distribution_1.png" alt="Distribution" width="300"></td>
+  </tr>
+</table>
 
 ## Features
 - Answer the question, "Will a customer accept the coupon?"
