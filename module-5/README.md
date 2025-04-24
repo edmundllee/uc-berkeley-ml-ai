@@ -6,13 +6,13 @@
 
 <table cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
   <tr>
-    <td><img src="assets/coupon-app-250.png" alt="Coupon app" width="300"></td>
-    <td><img src="assets/data_loading_1.png" alt="Data Loading" width="300"></td>
-    <td>
+    <td style="border: none;"><img src="assets/coupon-app-250.png" alt="Coupon app" width="300"></td>
+    <td style="border: none;"><img src="assets/data_loading_1.png" alt="Data Loading" width="300"></td>
+    <td style="border: none;">
       <img src="assets/missingData_1_250.png" alt="Missing Data 1" width="300" style="display:block; margin:0; padding:0;">
       <img src="assets/missingData_2_250.png" alt="Missing Data 2" width="300" style="display:block; margin:0; padding:0;">
     </td>    
-    <td><img src="assets/distribution_1.png" alt="Distribution" width="300"></td>
+    <td style="border: none;"><img src="assets/distribution_1.png" alt="Distribution" width="300"></td>
   </tr>
 </table>
 
@@ -73,7 +73,7 @@ uc-berkeley-ml-ai/
 > jupyter notebook
 ```
 
-once jupyter notebook is open you should be able to select the notebook/coupon_prompt.ipynb (https://github.com/edmundllee/uc-berkeley-ml-ai/module-5/notebooks/coupon_prompt.ipynb)
+once jupyter notebook is open you should be able to select the [notebook/coupon_prompt.ipynb](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/module-5/notebooks/coupon_prompt.ipynb)
 
 
 ## Findings & Insights
