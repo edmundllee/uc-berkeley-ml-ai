@@ -25,18 +25,20 @@
 
 ```
 uc-berkeley-ml-ai/
-|-- assets/          # Stores images, icons, logos, etc
-|-- data/            # Sample data like CSV files
-│-- notebooks/       # Jupyter notebooks 
 │-- ai-env/          # Virtual environment (ignored in Git)
-│-- .gitignore       # Ignore ai-env/ and other unnecessary files
-│-- LICENSE          # Open-source license
-│-- README.md        # Project description
-│-- requirements.txt # Dependencies file
+|-- module-5/
+  |-- assets/          # Stores images, icons, logos, etc
+  |-- data/            # Sample data like CSV files
+  │-- notebooks/       # Jupyter notebooks 
+    |-- coupon_prompt.ipynb
+  │-- .gitignore       # Ignore ai-env/ and other unnecessary files
+  │-- LICENSE          # Open-source license
+  │-- README.md        # Project description
+  │-- requirements.txt # Dependencies file
 ```
 
-- the Jupyter Source File (.ipynb) will be housed in the **notebooks** folder 
-- and the CSV file stored in the **data** folder
+- the Jupyter Source File (coupon_prompt.ipynb) will be housed in the **notebooks** folder 
+- and the CSV File (coupon_data.csv) stored in the **data** folder
 
 
 ## Tech Stack
