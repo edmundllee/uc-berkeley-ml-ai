@@ -89,7 +89,7 @@ k-nearest neighbors, logistic regression, decision trees, and support vector mac
 > jupyter notebook
 ```
 
-once jupyter notebook is open you should be able to select the [notebook/classifier_comparison.ipynb](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/module-5/notebooks/classifier_comparison.ipynb)
+once jupyter notebook is open you should be able to select the [notebook/classifier_comparison.ipynb](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/module-17/notebooks/classifier_comparison.ipynb)
 
 
 ## Findings & Insights
