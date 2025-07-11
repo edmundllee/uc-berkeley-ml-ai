@@ -9,6 +9,7 @@ A repository for ML / AI practical applications and projects
 The first section explores concepts in ML/AI, the data science life cycle, the fundamentals of Data Analysis, and hands-on experience with Python, Jupyter, Pandas, Seaborn, Plotly, and others.
 
 Below are practical application(s) from the program:
-- **Module 5.1: "Will a customer accept the coupon?"** 
+- **Module 5.1 : "Will a customer accept the coupon?"** 
 - **Module 11.1: "What Drives the Price of a Car?"** 
-
+- **Module 17.1: "Comparing Classifiers"**
+- **Module 20.1: "Capstone: Inital Report and EDA"**
