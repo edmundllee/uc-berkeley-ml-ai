@@ -52,7 +52,7 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to module 20.1](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/module-20/notebooks/parkinson_prediction.ipynb)
+- [Link to module 20.1](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/capstone/module-20/notebooks/parkinson_prediction.ipynb)
 
 ##### Contact and Further Information
-edmundlee@yahoo.com
+edmundllee@gmail.com
