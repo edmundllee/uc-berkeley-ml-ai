@@ -4,14 +4,15 @@
 Edmund Lee
 
 #### Executive summary
-Parkinson's Disease (PD), a nervous system disorder that gets progressively worst over time, lacks a definitive test and early clinical diagnosis. Being subjective, the clinical test could lead to misdiagnosis (confusing PD with Multiple System Atrophy (MSA), Progressive Supranuclear Palsy (PSP), and/or Corticobasal Degeneration (CBD)). Even the DATScan, perhaps the most used tool, cannot distinguish between them and while MRI analyzed with AI can reach high accuracy, it's expensive and not yet be widely available.
+Parkinson's Disease (PD), a nervous system disorder that gets progressively worst over time, lacks a definitive test and early clinical diagnosis. Being subjective, the clinical test could lead to misdiagnosis (confusing PD with Multiple System Atrophy (MSA), Progressive Supranuclear Palsy (PSP), and/or Corticobasal Degeneration (CBD)). Even the DATScan, perhaps the most used tool, cannot distinguish between them and while MRI analyzed with AI can reach high accuracy, it's expensive and may not yet be widely available.
 
 Enter Speech. 90% of individuals with Parkinson's develop a characteristic set of speech impairments known as hypokinetic dysarthria. Can we use voice-based biomarkers to contribute to the prediction of Parkinson's Disease?
 
 
 #### Rationale
 Why should anyone care about this question?
-While there has been recent advancement in discovering biomarkers for Parkinson's, many patients still rely on clinical based evidence to diagnose the disease. Parkinson's disease greatly impacts speech/motor function and being able to test this remotely in a scalable manner could have great impact in patient care with early diagnosis.
+While there has been recent advancement in discovering biomarkers for Parkinson's, many patients still rely on clinical based evidence to diagnose the disease. 
+Parkinson's disease greatly impacts speech/motor function and being able to test this remotely in a scalable manner could have great impact in patient care with early diagnosis.
 
 #### Research Question
 What are you trying to answer?
@@ -31,14 +32,22 @@ What methods are you using to answer the question?
 
 #### Results
 What did your research find?
+Our research found that certain voice-based features (Jitter, Shimmer) were more predictive of Parkinson's disease severity (as measured by motor_UPDRS)
+
+Inital EDA showed:
+
 * Jitter(%), Shimmer, and NHR increased in value across UPDRS severity quartiles.
 
 * Baseline Model (Linear Regression) Results: (RMSE): ~7.51, R² Score: ~0.12 
 
 * Top features were Jitter(Abs), Jitter:RAP, Shimmer:APQ3, Jitter:DDP, and Shimmer:DDA
 
+The results reveals the relationship between the features and Parkinson's is too complex for a linear model.
+
 #### Next steps
 What suggestions do you have for next steps?
+
+
 * Try other models 
 * Exposed as API
 * Create a private, offline-first, multimodal model application
@@ -52,7 +61,7 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to module 20.1](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/capstone/module-20/notebooks/parkinson_prediction.ipynb)
+- [Link to module 24.1](https://github.com/edmundllee/uc-berkeley-ml-ai/blob/main/capstone/module-24/notebooks/parkinson_prediction.ipynb)
 
 ##### Contact and Further Information
 edmundllee@gmail.com
